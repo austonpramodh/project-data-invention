@@ -1,0 +1,715 @@
+{
+  "projects": [
+    {
+      "id": "18841",
+      "display_name": "Nest Quest Go: Tanagers \u0026 Blackbirds",
+      "classifications_count": 80443,
+      "updated_at": "2023-03-02T04:22:22.762Z",
+      "description": "Transcribe historical nest records of these diverse, captivating birds to gain insight into their nesting patterns.",
+      "slug": "brbcornell/nest-quest-go-tanagers-and-blackbirds",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/da62a71a-ad46-42ab-a417-0057935f52f0.jpeg",
+      "links": {}
+    },
+    {
+      "id": "18089",
+      "display_name": "Nest Quest Go: Game Birds",
+      "classifications_count": 75888,
+      "updated_at": "2023-03-02T05:06:34.600Z",
+      "description": "Some consider them game birds, we love them all just the same! Transcribe their nest record to learn more about their breeding behavior.",
+      "slug": "brbcornell/nest-quest-go-game-birds",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/0e806c70-6a6a-4c80-94bc-9be7d7242331.jpeg",
+      "links": {}
+    },
+    {
+      "id": "12617",
+      "display_name": "Nest Quest Go: Cuckoos",
+      "classifications_count": 52008,
+      "updated_at": "2023-03-02T05:18:10.423Z",
+      "description": "Cuckoo! It’s time to transcribe historical nest record cards to gain insight into the nesting patterns of this fascinating family of birds. ",
+      "slug": "brbcornell/nest-quest-go-cuckoos",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/893b1b9d-6b11-458b-b450-699153ca0a6f.jpeg",
+      "links": {}
+    },
+    {
+      "id": "17301",
+      "display_name": "Nest Quest Go: Shore and Wetland Birds",
+      "classifications_count": 629087,
+      "updated_at": "2023-03-02T05:14:16.457Z",
+      "description": "Transcribe historical records to help us understand the nesting patterns of these birds by the shore.",
+      "slug": "brbcornell/nest-quest-go-shore-and-wetland-birds",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/30b04746-2c85-44d8-9ebc-384e0223e7ca.jpeg",
+      "links": {}
+    },
+    {
+      "id": "11210",
+      "display_name": "Nest Quest Go: Sparrows",
+      "classifications_count": 688353,
+      "updated_at": "2023-03-02T05:09:20.601Z",
+      "description": "Help us understand the nesting patterns of these small backyard birds!",
+      "slug": "brbcornell/nest-quest-go-sparrows",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/91b3fdeb-6bef-4c68-bb0b-0960567424d8.jpeg",
+      "links": {}
+    },
+    {
+      "id": "15810",
+      "display_name": "Nest Quest Go: Purple Martins",
+      "classifications_count": 39471,
+      "updated_at": "2023-03-02T05:16:27.469Z",
+      "description": "Help us analyze the nesting patterns of these musical, birdhouse-loving swallows!",
+      "slug": "brbcornell/nest-quest-go-purple-martins",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/28fe96f1-00fc-490d-9542-36c53bc8ae4e.jpeg",
+      "links": {}
+    },
+    {
+      "id": "11439",
+      "display_name": "Nest Quest Go: Waxwings \u0026 Crossbills",
+      "classifications_count": 101776,
+      "updated_at": "2023-03-02T04:07:57.131Z",
+      "description": "Have you seen these fruit-snatching woodland wanderers? Help us learn more about them by transcribing nest records.",
+      "slug": "brbcornell/nest-quest-go-waxwings-and-crossbills",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/910f3384-a7d2-4f96-8073-0f60df1d7538.jpeg",
+      "links": {}
+    },
+    {
+      "id": "14264",
+      "display_name": "Nest Quest Go: Vireos and Juncos",
+      "classifications_count": 92506,
+      "updated_at": "2023-03-02T05:03:56.429Z",
+      "description": "Help discover the nesting patterns of these repetitive singers by transcribing nest records!",
+      "slug": "brbcornell/nest-quest-go-vireos-and-juncos",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/35989687-8bc7-44fe-a887-c98c5dabcf63.jpeg",
+      "links": {}
+    },
+    {
+      "id": "12616",
+      "display_name": "Nest Quest Go: Mourning Doves",
+      "classifications_count": 230515,
+      "updated_at": "2023-03-02T05:03:23.301Z",
+      "description": "Find them on telephone wires and at your feeders, or you can discover their nesting behavior by transcribing their nest record cards.",
+      "slug": "brbcornell/nest-quest-go-mourning-doves",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/a2957933-d02c-408b-aaa7-df21ab5f0210.jpeg",
+      "links": {}
+    },
+    {
+      "id": "12619",
+      "display_name": "Nest Quest Go: Crows, Ravens, Jays, \u0026 Magpies",
+      "classifications_count": 152201,
+      "updated_at": "2023-03-02T05:01:26.839Z",
+      "description": "Join us in transcribing the nest records of these intelligent \u0026 charismatic Corvid.",
+      "slug": "brbcornell/nest-quest-go-crows-ravens-jays-and-magpies",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/e55de55c-b454-4b80-93d8-e3fe8094eb72.jpeg",
+      "links": {}
+    },
+    {
+      "id": "15072",
+      "display_name": "Project RattleCam ",
+      "classifications_count": 399999,
+      "updated_at": "2023-03-02T04:07:42.459Z",
+      "description": "Help scientists understand rattlesnake behavior",
+      "slug": "projectrattlecam/project-rattlecam",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/725a0c4f-9691-406c-b4f0-00e3a040d618.jpeg",
+      "links": {}
+    },
+    {
+      "id": "15650",
+      "display_name": "NASA GLOBE CLOUD GAZE",
+      "classifications_count": 9189,
+      "updated_at": "2023-03-02T04:11:32.421Z",
+      "description": "This site is no longer actively updated.  The CLOUD GAZE team has set up test datasets within the interactives for educators and teachers to use in their classrooms.",
+      "slug": "nasaglobe/nasa-globe-cloud-gaze",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/325f6a09-abd2-47ff-aa4e-bd06b6902ab7.jpeg",
+      "links": {}
+    },
+    {
+      "id": "11437",
+      "display_name": "Nest Quest Go: Red-winged Blackbirds",
+      "classifications_count": 154353,
+      "updated_at": "2023-03-02T04:03:55.074Z",
+      "description": "Transcribe historical nest records while exploring the life-history of these fiery-winged blackbirds!",
+      "slug": "brbcornell/nest-quest-go-red-winged-blackbirds",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/10da6320-2097-4e6f-b9f1-82ccbdc164d7.jpeg",
+      "links": {}
+    },
+    {
+      "id": "13654",
+      "display_name": "Tag Along with Adler",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T05:15:06.941Z",
+      "description": "Help the Adler Planetarium tag our collections to expand how we catalogue our objects, and how our users can find them!",
+      "slug": "webster-institute/tag-along-with-adler",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/f1516bdf-f89c-4fbd-bab1-9e61986fac37.jpeg",
+      "links": {}
+    },
+    {
+      "id": "14678",
+      "display_name": "Nest Quest Go: Killdeer",
+      "classifications_count": 70954,
+      "updated_at": "2023-03-02T04:24:43.360Z",
+      "description": "Transcribe historical nest records of \"Kill-deer, kill-deer, kill-deer!\", so we can better understand these fascinating birds. ",
+      "slug": "brbcornell/nest-quest-go-killdeer",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/ecf93d01-7d9c-4be3-9bec-9553b199d35f.jpeg",
+      "links": {}
+    },
+    {
+      "id": "12613",
+      "display_name": "Nest Quest Go: European Starlings and House Sparrows",
+      "classifications_count": 244629,
+      "updated_at": "2023-03-02T05:20:22.891Z",
+      "description": "Help us investigate the lives of these, introduced to North America, avian species!",
+      "slug": "brbcornell/nest-quest-go-european-starlings-and-house-sparrows",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/11aed8cf-4fe6-44c2-b1eb-007f3204a8bd.png",
+      "links": {}
+    },
+    {
+      "id": "11208",
+      "display_name": "Nest Quest Go: Woodpeckers",
+      "classifications_count": 162061,
+      "updated_at": "2023-03-02T04:14:02.280Z",
+      "description": "Help us discover the nesting habits of these captivating excavators!",
+      "slug": "brbcornell/nest-quest-go-woodpeckers",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/ac28e4f9-da11-4bfe-8560-1873ab35fa2a.jpeg",
+      "links": {}
+    },
+    {
+      "id": "11440",
+      "display_name": "Nest Quest Go: Catbirds, Thrashers, \u0026 Mockingbirds",
+      "classifications_count": 505291,
+      "updated_at": "2023-03-02T05:13:40.311Z",
+      "description": "Help us understand the historical nesting patterns of these noisy animated singers!",
+      "slug": "brbcornell/nest-quest-go-catbirds-thrashers-and-mockingbirds",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/7a4c4f1f-a646-4f41-a043-f2486e9c8f5a.jpeg",
+      "links": {}
+    },
+    {
+      "id": "11212",
+      "display_name": "Nest Quest Go: Buntings \u0026 Longspurs",
+      "classifications_count": 94813,
+      "updated_at": "2023-03-02T05:21:34.739Z",
+      "description": "Discover the nesting patterns of these vibrant, musical birds.",
+      "slug": "brbcornell/nest-quest-go-buntings-and-longspurs",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/d4392203-0904-47e1-9d6d-bab686fcf946.jpeg",
+      "links": {}
+    },
+    {
+      "id": "12615",
+      "display_name": "Nest Quest Go: Thrushes",
+      "classifications_count": 22098,
+      "updated_at": "2023-03-02T05:08:25.807Z",
+      "description": "Learn about the nesting lives of these melodic singers.",
+      "slug": "brbcornell/nest-quest-go-thrushes",
+      "redirect": "",
+      "launch_approved": true,
+      "completeness": 1.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/b1e368f0-abc4-42fe-b16f-c3b09d8df191.jpeg",
+      "links": {}
+    }
+  ],
+  "linked": {
+    "avatars": [
+      {
+        "id": "156092311",
+        "href": "/projects/18841/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/da62a71a-ad46-42ab-a417-0057935f52f0.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2022-08-04T15:42:18.056Z",
+        "metadata": null,
+        "updated_at": "2022-08-04T15:42:18.056Z",
+        "links": {
+          "linked": {
+            "href": "/projects/18841",
+            "id": "18841",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "148882575",
+        "href": "/projects/18089/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/0e806c70-6a6a-4c80-94bc-9be7d7242331.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2022-05-16T16:45:46.341Z",
+        "metadata": null,
+        "updated_at": "2022-05-16T16:45:46.341Z",
+        "links": {
+          "linked": {
+            "href": "/projects/18089",
+            "id": "18089",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "138490393",
+        "href": "/projects/12617/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/893b1b9d-6b11-458b-b450-699153ca0a6f.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2022-01-05T17:07:10.002Z",
+        "metadata": null,
+        "updated_at": "2022-01-05T17:07:10.002Z",
+        "links": {
+          "linked": {
+            "href": "/projects/12617",
+            "id": "12617",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "141020744",
+        "href": "/projects/17301/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/30b04746-2c85-44d8-9ebc-384e0223e7ca.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2022-02-09T00:39:32.155Z",
+        "metadata": null,
+        "updated_at": "2022-02-09T00:39:32.155Z",
+        "links": {
+          "linked": {
+            "href": "/projects/17301",
+            "id": "17301",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "133712383",
+        "href": "/projects/11210/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/91b3fdeb-6bef-4c68-bb0b-0960567424d8.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-11-09T11:53:38.556Z",
+        "metadata": null,
+        "updated_at": "2021-11-09T11:53:38.556Z",
+        "links": {
+          "linked": {
+            "href": "/projects/11210",
+            "id": "11210",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "132004298",
+        "href": "/projects/15810/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/28fe96f1-00fc-490d-9542-36c53bc8ae4e.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-09-27T14:40:58.733Z",
+        "metadata": null,
+        "updated_at": "2021-09-27T14:40:58.733Z",
+        "links": {
+          "linked": {
+            "href": "/projects/15810",
+            "id": "15810",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "133592842",
+        "href": "/projects/11439/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/910f3384-a7d2-4f96-8073-0f60df1d7538.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-11-08T10:35:25.459Z",
+        "metadata": null,
+        "updated_at": "2021-11-08T10:35:25.459Z",
+        "links": {
+          "linked": {
+            "href": "/projects/11439",
+            "id": "11439",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "108220547",
+        "href": "/projects/14264/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/35989687-8bc7-44fe-a887-c98c5dabcf63.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-04-19T01:21:21.177Z",
+        "metadata": null,
+        "updated_at": "2021-04-19T01:21:21.177Z",
+        "links": {
+          "linked": {
+            "href": "/projects/14264",
+            "id": "14264",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "101248191",
+        "href": "/projects/12616/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/a2957933-d02c-408b-aaa7-df21ab5f0210.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-02-09T01:10:38.495Z",
+        "metadata": null,
+        "updated_at": "2021-02-09T01:10:38.495Z",
+        "links": {
+          "linked": {
+            "href": "/projects/12616",
+            "id": "12616",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "105676861",
+        "href": "/projects/12619/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/e55de55c-b454-4b80-93d8-e3fe8094eb72.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-03-19T01:17:55.895Z",
+        "metadata": null,
+        "updated_at": "2021-03-19T01:17:55.895Z",
+        "links": {
+          "linked": {
+            "href": "/projects/12619",
+            "id": "12619",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "101567633",
+        "href": "/projects/15072/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/725a0c4f-9691-406c-b4f0-00e3a040d618.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-02-12T20:27:55.673Z",
+        "metadata": null,
+        "updated_at": "2021-02-12T20:27:55.673Z",
+        "links": {
+          "linked": {
+            "href": "/projects/15072",
+            "id": "15072",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "115563060",
+        "href": "/projects/15650/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/325f6a09-abd2-47ff-aa4e-bd06b6902ab7.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-06-14T16:45:35.342Z",
+        "metadata": null,
+        "updated_at": "2021-06-14T16:45:35.342Z",
+        "links": {
+          "linked": {
+            "href": "/projects/15650",
+            "id": "15650",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "82522841",
+        "href": "/projects/11437/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/10da6320-2097-4e6f-b9f1-82ccbdc164d7.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2020-07-01T20:57:30.647Z",
+        "metadata": null,
+        "updated_at": "2020-07-01T20:57:30.647Z",
+        "links": {
+          "linked": {
+            "href": "/projects/11437",
+            "id": "11437",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "99314725",
+        "href": "/projects/13654/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/f1516bdf-f89c-4fbd-bab1-9e61986fac37.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-01-20T17:53:05.957Z",
+        "metadata": null,
+        "updated_at": "2021-01-20T17:53:05.957Z",
+        "links": {
+          "linked": {
+            "href": "/projects/13654",
+            "id": "13654",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "98728294",
+        "href": "/projects/14678/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/ecf93d01-7d9c-4be3-9bec-9553b199d35f.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-01-14T18:17:51.080Z",
+        "metadata": null,
+        "updated_at": "2021-01-14T18:17:51.080Z",
+        "links": {
+          "linked": {
+            "href": "/projects/14678",
+            "id": "14678",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "97882090",
+        "href": "/projects/12613/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/11aed8cf-4fe6-44c2-b1eb-007f3204a8bd.png",
+        "content_type": "image/png",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2021-01-07T04:35:28.706Z",
+        "metadata": null,
+        "updated_at": "2021-01-07T04:35:28.706Z",
+        "links": {
+          "linked": {
+            "href": "/projects/12613",
+            "id": "12613",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "88577781",
+        "href": "/projects/11208/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/ac28e4f9-da11-4bfe-8560-1873ab35fa2a.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2020-10-12T13:59:19.990Z",
+        "metadata": null,
+        "updated_at": "2020-10-12T13:59:19.990Z",
+        "links": {
+          "linked": {
+            "href": "/projects/11208",
+            "id": "11208",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "81049479",
+        "href": "/projects/11440/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/7a4c4f1f-a646-4f41-a043-f2486e9c8f5a.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2020-06-10T21:19:39.306Z",
+        "metadata": null,
+        "updated_at": "2020-06-10T21:19:39.306Z",
+        "links": {
+          "linked": {
+            "href": "/projects/11440",
+            "id": "11440",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "82629576",
+        "href": "/projects/11212/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/d4392203-0904-47e1-9d6d-bab686fcf946.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2020-07-07T00:58:22.527Z",
+        "metadata": null,
+        "updated_at": "2020-07-07T00:58:22.527Z",
+        "links": {
+          "linked": {
+            "href": "/projects/11212",
+            "id": "11212",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "85662310",
+        "href": "/projects/12615/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/b1e368f0-abc4-42fe-b16f-c3b09d8df191.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2020-08-20T18:29:53.479Z",
+        "metadata": null,
+        "updated_at": "2020-08-20T18:29:53.479Z",
+        "links": {
+          "linked": {
+            "href": "/projects/12615",
+            "id": "12615",
+            "type": "projects"
+          }
+        }
+      }
+    ]
+  },
+  "links": {
+    "projects.workflows": {
+      "href": "/workflows?project_id={projects.id}",
+      "type": "workflows"
+    },
+    "projects.active_workflows": {
+      "href": "/workflows?project_id={projects.id}",
+      "type": "active_workflows"
+    },
+    "projects.subject_sets": {
+      "href": "/subject_sets?project_id={projects.id}",
+      "type": "subject_sets"
+    },
+    "projects.project_roles": {
+      "href": "/project_roles?project_id={projects.id}",
+      "type": "project_roles"
+    },
+    "projects.pages": {
+      "href": "/projects/{projects.id}/pages",
+      "type": "project_pages"
+    },
+    "projects.organization": {
+      "href": "/organizations/{projects.organization}",
+      "type": "organizations"
+    },
+    "projects.attached_images": {
+      "href": "/projects/{projects.id}/attached_images",
+      "type": "media"
+    },
+    "projects.owner": {
+      "href": "/{projects.owner.href}",
+      "type": "owners"
+    },
+    "projects.avatar": {
+      "href": "/projects/{projects.id}/avatar",
+      "type": "media"
+    },
+    "projects.background": {
+      "href": "/projects/{projects.id}/background",
+      "type": "media"
+    },
+    "projects.classifications_export": {
+      "href": "/projects/{projects.id}/classifications_export",
+      "type": "media"
+    },
+    "projects.subjects_export": {
+      "href": "/projects/{projects.id}/subjects_export",
+      "type": "media"
+    }
+  },
+  "meta": {
+    "projects": {
+      "page": 1,
+      "page_size": 20,
+      "count": 106,
+      "include": [
+        "avatar"
+      ],
+      "page_count": 6,
+      "previous_page": null,
+      "next_page": 2,
+      "first_href": "/projects?include=avatar\u0026sort=-launch_date\u0026launch_approved=true\u0026state=1",
+      "previous_href": null,
+      "next_href": "/projects?page=2\u0026include=avatar\u0026sort=-launch_date\u0026launch_approved=true\u0026state=1",
+      "last_href": "/projects?page=6\u0026include=avatar\u0026sort=-launch_date\u0026launch_approved=true\u0026state=1"
+    }
+  }
+}

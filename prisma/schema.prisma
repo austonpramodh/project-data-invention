@@ -1,0 +1,103 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../db.sqlite"
+}
+
+model Project {
+  id                    String    @id @default(cuid())
+  zooniverse_id         String
+  display_name          String?
+  classifications_count Int?
+  updated_at            DateTime?
+  description           String?
+  slug                  String?
+  redirect              String?
+  launch_approved       Boolean?
+  completeness          Float?
+  state                 String?
+  avatar_src            String?
+  links                 String?
+}
+
+model Board {
+  id                      String    @id @default(cuid())
+  zooniverse_id           String?
+  href                    String?
+  links                   String?
+  comments_count          Int?
+  created_at              DateTime?
+  description             String?
+  discussions_count       Int?
+  last_comment_created_at DateTime?
+  parent_id               String?
+  position                Int?
+  section                 String?
+  subject_default         Boolean?
+  title                   String?
+  users_count             Int?
+  project_id              String?
+}
+
+model Discussion {
+  id                      String    @id @default(cuid())
+  zooniverse_id           String?
+  href                    String?
+  board_id                String?
+  comments_count          Int?
+  created_at              DateTime?
+  focus_id                String?
+  last_comment_created_at DateTime?
+  locked                  Boolean?
+  project_id              String?
+  section                 String?
+  sticky                  Boolean?
+  subject_default         Boolean?
+  title                   String?
+  updated_at              DateTime?
+  user_id                 String?
+  user_login              String?
+  users_count             Int?
+  project_slug            String?
+  project_title           String?
+  board_comments_count    Int?
+  board_description       String?
+  board_discussions_count Int?
+  board_parent_id         String?
+  board_subject_default   Boolean?
+  board_title             String?
+  board_users_count       Int?
+  user_display_name       String?
+}
+
+model Comment {
+  id                        String    @id @default(cuid())
+  zooniverse_id             String?
+  href                      String?
+  links                     String?
+  created_at                DateTime?
+  discussion_id             String?
+  discussion_comments_count Int?
+  board_id                  String?
+  board_comments_count      Int?
+  board_description         String?
+  board_discussions_count   Int?
+  board_parent_id           String?
+  board_subject_default     Boolean?
+  board_title               String?
+  board_users_count         Int?
+  project_id                String?
+  project_slug              String?
+  project_title             String?
+  user_id                   String?
+  user_login                String?
+  user_display_name         String?
+  body                      String?
+  category                  String?
+}

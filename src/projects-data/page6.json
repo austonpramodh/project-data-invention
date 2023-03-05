@@ -1,0 +1,267 @@
+{
+  "projects": [
+    {
+      "id": "35",
+      "display_name": "Seafloor Explorer",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T05:19:33.561Z",
+      "description": "Help explore the ocean floor. The HabCam team and the Woods Hole Oceanographic Institution need your help!",
+      "slug": "zooniverse/seafloor-explorer",
+      "redirect": "http://seafloorexplorer.org/#!/",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/f704bda7-6fd3-4c7a-bfeb-c2859145aec1.jpeg",
+      "links": {}
+    },
+    {
+      "id": "33",
+      "display_name": "SETI Live",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T05:10:35.156Z",
+      "description": "SETI Live",
+      "slug": "zooniverse/seti-live",
+      "redirect": "http://setilive.org",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/e104760b-5f43-44e8-8dc9-7c37c7abaa31.jpeg",
+      "links": {}
+    },
+    {
+      "id": "32",
+      "display_name": "Whale FM",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T04:25:44.731Z",
+      "description": "Whale FM",
+      "slug": "zooniverse/whale-fm",
+      "redirect": "https://whalefm.wordpress.com/",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/8901db9f-4dc9-4965-8d58-367736ffd0fc.jpeg",
+      "links": {}
+    },
+    {
+      "id": "26",
+      "display_name": "Planet Hunters",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T05:06:12.423Z",
+      "description": "Find planets around stars. Lightcurve changes from the Kepler spacecraft can indicate transiting planets. ",
+      "slug": "zooniverse/planet-hunters",
+      "redirect": "http://planethunters.org/#/",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/912d988e-19c3-4abf-b632-312453042d8a.jpeg",
+      "links": {}
+    },
+    {
+      "id": "22",
+      "display_name": "Moon Zoo",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T04:14:24.798Z",
+      "description": "Explore the surface of the Moon. We hope to study the lunar surface in unprecedented detail. ",
+      "slug": "zooniverse/moon-zoo",
+      "redirect": "http://moonzoo.org",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/db2bbc4a-9c64-41fe-b9e1-85ca95a7f75b.jpeg",
+      "links": {}
+    },
+    {
+      "id": "23",
+      "display_name": "Solar Stormwatch",
+      "classifications_count": 0,
+      "updated_at": "2023-03-02T05:06:12.340Z",
+      "description": "Study explosions on the Sun. Explore interactive diagrams to learn about the Sun and the spacecraft monitoring it. ",
+      "slug": "zooniverse/solar-stormwatch",
+      "redirect": "http://solarstormwatch.com",
+      "launch_approved": true,
+      "completeness": 0.0,
+      "state": "finished",
+      "avatar_src": "https://panoptes-uploads.zooniverse.org/project_avatar/d26703e8-b9ba-47e0-a8c2-a2b6e32ec688.jpeg",
+      "links": {}
+    }
+  ],
+  "linked": {
+    "avatars": [
+      {
+        "id": "618296",
+        "href": "/projects/35/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/f704bda7-6fd3-4c7a-bfeb-c2859145aec1.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2015-07-22T20:38:21.089Z",
+        "metadata": null,
+        "updated_at": "2015-07-22T20:38:21.089Z",
+        "links": {
+          "linked": {
+            "href": "/projects/35",
+            "id": "35",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "486167",
+        "href": "/projects/33/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/e104760b-5f43-44e8-8dc9-7c37c7abaa31.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2015-06-19T18:04:26.452Z",
+        "metadata": null,
+        "updated_at": "2015-06-19T18:04:26.452Z",
+        "links": {
+          "linked": {
+            "href": "/projects/33",
+            "id": "33",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "516770",
+        "href": "/projects/32/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/8901db9f-4dc9-4965-8d58-367736ffd0fc.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2015-07-01T21:20:14.093Z",
+        "metadata": null,
+        "updated_at": "2015-07-01T21:20:14.093Z",
+        "links": {
+          "linked": {
+            "href": "/projects/32",
+            "id": "32",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "618289",
+        "href": "/projects/26/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/912d988e-19c3-4abf-b632-312453042d8a.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2015-07-22T20:12:56.390Z",
+        "metadata": null,
+        "updated_at": "2015-07-22T20:12:56.390Z",
+        "links": {
+          "linked": {
+            "href": "/projects/26",
+            "id": "26",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "499262",
+        "href": "/projects/22/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/db2bbc4a-9c64-41fe-b9e1-85ca95a7f75b.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2015-06-24T22:55:25.507Z",
+        "metadata": null,
+        "updated_at": "2015-06-24T22:55:25.507Z",
+        "links": {
+          "linked": {
+            "href": "/projects/22",
+            "id": "22",
+            "type": "projects"
+          }
+        }
+      },
+      {
+        "id": "499263",
+        "href": "/projects/23/avatar",
+        "src": "https://panoptes-uploads.zooniverse.org/project_avatar/d26703e8-b9ba-47e0-a8c2-a2b6e32ec688.jpeg",
+        "content_type": "image/jpeg",
+        "media_type": "project_avatar",
+        "external_link": false,
+        "created_at": "2015-06-24T22:57:52.737Z",
+        "metadata": null,
+        "updated_at": "2015-06-24T22:57:52.737Z",
+        "links": {
+          "linked": {
+            "href": "/projects/23",
+            "id": "23",
+            "type": "projects"
+          }
+        }
+      }
+    ]
+  },
+  "links": {
+    "projects.workflows": {
+      "href": "/workflows?project_id={projects.id}",
+      "type": "workflows"
+    },
+    "projects.active_workflows": {
+      "href": "/workflows?project_id={projects.id}",
+      "type": "active_workflows"
+    },
+    "projects.subject_sets": {
+      "href": "/subject_sets?project_id={projects.id}",
+      "type": "subject_sets"
+    },
+    "projects.project_roles": {
+      "href": "/project_roles?project_id={projects.id}",
+      "type": "project_roles"
+    },
+    "projects.pages": {
+      "href": "/projects/{projects.id}/pages",
+      "type": "project_pages"
+    },
+    "projects.organization": {
+      "href": "/organizations/{projects.organization}",
+      "type": "organizations"
+    },
+    "projects.attached_images": {
+      "href": "/projects/{projects.id}/attached_images",
+      "type": "media"
+    },
+    "projects.owner": {
+      "href": "/{projects.owner.href}",
+      "type": "owners"
+    },
+    "projects.avatar": {
+      "href": "/projects/{projects.id}/avatar",
+      "type": "media"
+    },
+    "projects.background": {
+      "href": "/projects/{projects.id}/background",
+      "type": "media"
+    },
+    "projects.classifications_export": {
+      "href": "/projects/{projects.id}/classifications_export",
+      "type": "media"
+    },
+    "projects.subjects_export": {
+      "href": "/projects/{projects.id}/subjects_export",
+      "type": "media"
+    }
+  },
+  "meta": {
+    "projects": {
+      "page": 6,
+      "page_size": 20,
+      "count": 106,
+      "include": [
+        "avatar"
+      ],
+      "page_count": 6,
+      "previous_page": 5,
+      "next_page": null,
+      "first_href": "/projects?include=avatar\u0026sort=-launch_date\u0026launch_approved=true\u0026state=1",
+      "previous_href": "/projects?page=5\u0026include=avatar\u0026sort=-launch_date\u0026launch_approved=true\u0026state=1",
+      "next_href": null,
+      "last_href": "/projects?page=6\u0026include=avatar\u0026sort=-launch_date\u0026launch_approved=true\u0026state=1"
+    }
+  }
+}
