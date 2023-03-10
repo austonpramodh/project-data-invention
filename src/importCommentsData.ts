@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
-import axios from 'axios';
+import axios from "axios";
+import axiosRetry from "axios-retry";
 
 import { delay } from "./utils";
 
@@ -60,6 +61,23 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
         },
     });
 
+    let discussion_title = "";
+
+    // Exponential back-off retry delay between requests
+    console.log("Enabling Axios retry!!");
+    axiosRetry(axios, {
+        retryDelay: axiosRetry.exponentialDelay,
+        retries: 300,
+        retryCondition: (err) => {
+            console.log("Error: ", err.code, err.name, err.message);
+
+            return true;
+        },
+        onRetry: (retryCount) => {
+            console.log(`Retrying request for discussion "${discussion_title}" (Retry Count: ${retryCount})`);
+        },
+    });
+
     // For each discussion, get the comments data from the comments api :- https://talk.zooniverse.org/comments?http_cache=true&discussion_id=2820616&page_size=20&page=1
     // Create a comment in the database for each comment in the comments data
     for (let i = 0; i < discussions.length; i++) {
@@ -72,10 +90,14 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
 
         while (hasNextPage) {
             // Rate limit the requests to the API
-            await delay(100);
+            await delay(50);
+
+            discussion_title = discussion.title || "";
 
             // Get the comments data from the comments api
-            const commentsData = await axios.get<CommentsAPIResponse>(`https://talk.zooniverse.org/comments?http_cache=true&discussion_id=${discussion.zooniverse_id}&page_size=10&page=${page}`);
+            const commentsData = await axios.get<CommentsAPIResponse>(
+                `https://talk.zooniverse.org/comments?http_cache=true&discussion_id=${discussion.zooniverse_id}&page_size=50&page=${page}`,
+            );
 
             const commentsDataJSON = commentsData.data;
 
