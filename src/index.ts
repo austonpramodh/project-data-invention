@@ -13,9 +13,9 @@ async function main() {
     // Import the boards data into the database
     // await importBoardsDataIntoDB(prisma);
     // Import the discussions data into the database
-    await importDiscussionsDataIntoDB(prisma);
+    // await importDiscussionsDataIntoDB(prisma);
     // Import the comments data into the database
-    // await importCommentsDataIntoDB(prisma);
+    await importCommentsDataIntoDB(prisma);
 }
 
 main();

@@ -72,15 +72,28 @@ export async function importDiscussionsDataIntoDB(prismaClient: PrismaClient, se
         let hasNextPage = true;
 
         while (hasNextPage) {
-            // Rate limit the requests to the API
-            await delay(50);
-
             // Get the discussions data from the discussions api
             const discussionsData = await fetch(
                 `https://talk.zooniverse.org/discussions?http_cache=true&board_id=${board.zooniverse_id}&page_size=50&page=${page}`,
             );
 
+            // Rate limit the requests to the API
+            await delay(50);
+
             const discussionsDataJSON = (await discussionsData.json()) as DiscussionsAPIResponse;
+
+            // Check for total discussions count, and see if we have all the discussions in the database
+            const totalDiscussionsCount = discussionsDataJSON.meta.discussions.count;
+            const discussionsInDBCount = await prismaClient.discussion.count({
+                where: {
+                    board_id: board.zooniverse_id,
+                },
+            });
+
+            if (discussionsInDBCount >= totalDiscussionsCount) {
+                consoleLog(`All discussions for board "${board.title}" already exist in DB`);
+                break;
+            }
 
             // Create a discussion in the database for each discussion in the discussions data
             for (const discussion of discussionsDataJSON.discussions) {
@@ -106,7 +119,7 @@ export async function importDiscussionsDataIntoDB(prismaClient: PrismaClient, se
                             last_comment_created_at: discussion.last_comment_created_at,
                             comments_count: discussion.comments_count,
                             users_count: discussion.users_count,
-                            board_id: board.id,
+                            board_id: discussion.board_id,
                             user_id: discussion.user_id,
                             project_id: discussion.project_id,
                             focus_id: discussion.focus_id,

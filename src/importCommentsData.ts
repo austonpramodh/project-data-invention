@@ -55,6 +55,7 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
         select: {
             id: true,
             zooniverse_id: true,
+            title: true,
         },
     });
 
@@ -63,11 +64,7 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
     for (let i = 0; i < discussions.length; i++) {
         const discussion = discussions[i];
 
-        console.log(
-            "Importing comments for discussion: ",
-            discussion.zooniverse_id,
-            ` (${i + 1} of ${discussions.length})`,
-        );
+        console.log("Importing comments for discussion: ", discussion.title, ` (${i + 1} of ${discussions.length})`);
         // Loop through the comments pages
         let page = 1;
         let hasNextPage = true;
@@ -82,6 +79,18 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
             );
 
             const commentsDataJSON = (await commentsData.json()) as CommentsAPIResponse;
+
+            // Check if all the comments have already been feteched
+            const commentsCount = await prismaClient.comment.count({
+                where: {
+                    discussion_id: discussion.zooniverse_id,
+                },
+            });
+
+            if (commentsCount >= commentsDataJSON.meta.comments.count) {
+                consoleLog(`All comments for discussion "${discussion.title}" already exist in DB`);
+                break;
+            }
 
             // Create a comment in the database for each comment in the comments data
             for (const comment of commentsDataJSON.comments) {
@@ -133,7 +142,9 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
             page = commentsDataJSON.meta.comments.next_page ?? 1;
 
             consoleLog(
-                `Page ${page} of ${commentsDataJSON.meta.comments.page_count} for discussion ${discussion.zooniverse_id}`,
+                `Page ${page} of ${commentsDataJSON.meta.comments.page_count} for discussion ${
+                    discussion.title
+                }, Discussions: ${i + 1} of ${discussions.length}`,
             );
         }
     }
