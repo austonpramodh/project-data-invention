@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-
+import axios from "axios";
 import { delay } from "./utils";
 
 export interface Discussion {
@@ -73,14 +73,14 @@ export async function importDiscussionsDataIntoDB(prismaClient: PrismaClient, se
 
         while (hasNextPage) {
             // Get the discussions data from the discussions api
-            const discussionsData = await fetch(
+            const discussionsData = await axios.get(
                 `https://talk.zooniverse.org/discussions?http_cache=true&board_id=${board.zooniverse_id}&page_size=50&page=${page}`,
             );
 
             // Rate limit the requests to the API
             await delay(50);
 
-            const discussionsDataJSON = (await discussionsData.json()) as DiscussionsAPIResponse;
+            const discussionsDataJSON = (discussionsData.data) as DiscussionsAPIResponse;
 
             // Check for total discussions count, and see if we have all the discussions in the database
             const totalDiscussionsCount = discussionsDataJSON.meta.discussions.count;

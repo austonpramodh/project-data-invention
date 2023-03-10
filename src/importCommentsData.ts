@@ -1,4 +1,5 @@
 import { PrismaClient } from "@prisma/client";
+import axios from 'axios';
 
 import { delay } from "./utils";
 
@@ -74,11 +75,9 @@ export async function importCommentsDataIntoDB(prismaClient: PrismaClient, seedM
             await delay(100);
 
             // Get the comments data from the comments api
-            const commentsData = await fetch(
-                `https://talk.zooniverse.org/comments?http_cache=true&discussion_id=${discussion.zooniverse_id}&page_size=10&page=${page}`,
-            );
+            const commentsData = await axios.get<CommentsAPIResponse>(`https://talk.zooniverse.org/comments?http_cache=true&discussion_id=${discussion.zooniverse_id}&page_size=10&page=${page}`);
 
-            const commentsDataJSON = (await commentsData.json()) as CommentsAPIResponse;
+            const commentsDataJSON = commentsData.data;
 
             // Check if all the comments have already been feteched
             const commentsCount = await prismaClient.comment.count({

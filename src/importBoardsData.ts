@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-
+import axios from "axios";
 import { delay } from "./utils";
 
 interface BoardsAPIResponse {
@@ -49,10 +49,10 @@ export async function importBoardsDataIntoDB(prismaClient: PrismaClient): Promis
             await delay(100);
 
             // Get the boards data from the boards api
-            const boardsData = await fetch(
+            const boardsData = await axios.get(
                 `https://talk.zooniverse.org/boards?http_cache=true&section=project-${project.zooniverse_id}&page_size=20&page=${page}`,
             );
-            const boardsDataJSON = (await boardsData.json()) as BoardsAPIResponse;
+            const boardsDataJSON = (boardsData.data) as BoardsAPIResponse;
 
             // Create a board in the database for each board in the boards data
             for (const board of boardsDataJSON.boards) {
