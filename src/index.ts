@@ -3,6 +3,7 @@ import { PrismaClient } from "@prisma/client";
 import { importBoardsDataIntoDB } from "./importBoardsData";
 import { importCommentsDataIntoDB } from "./importCommentsData";
 import { importDiscussionsDataIntoDB } from "./importDiscussionsData";
+import { importPopularTagsDataIntoDB } from "./importPopularTags";
 import { importProjectsDataIntoDB } from "./importProjectsData";
 
 const prisma = new PrismaClient();
@@ -15,7 +16,10 @@ async function main() {
     // Import the discussions data into the database
     // await importDiscussionsDataIntoDB(prisma);
     // Import the comments data into the database
-    await importCommentsDataIntoDB(prisma);
+    // await importCommentsDataIntoDB(prisma);
+
+    // Import the popular tags data into the database
+    await importPopularTagsDataIntoDB(prisma);
 }
 
 main();

@@ -109,3 +109,13 @@ model CacheMap {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
+
+model PopularTag {
+  id            String @id @default(cuid())
+  zooniverse_id String
+  href          String
+  name          String
+  project_id    Int
+  section       String
+  usages        Int
+}
