@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 
+import { exportDataFromDBToCSV } from "./exportDataFromDBToCSV";
 import { importBoardsDataIntoDB } from "./importBoardsData";
 import { importCommentsDataIntoDB } from "./importCommentsData";
 import { importDiscussionsDataIntoDB } from "./importDiscussionsData";
@@ -19,7 +20,10 @@ async function main() {
     // await importCommentsDataIntoDB(prisma);
 
     // Import the popular tags data into the database
-    await importPopularTagsDataIntoDB(prisma);
+    // await importPopularTagsDataIntoDB(prisma);
+
+    // Publish all the data from the database to csv file
+    await exportDataFromDBToCSV(prisma);
 }
 
 main();
